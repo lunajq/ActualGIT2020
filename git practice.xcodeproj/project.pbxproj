@@ -13,7 +13,11 @@
 		3F64FA6123DA22D200276677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FA5F23DA22D200276677 /* Main.storyboard */; };
 		3F64FA6323DA22D700276677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FA6223DA22D700276677 /* Assets.xcassets */; };
 		3F64FA6623DA22D700276677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FA6423DA22D700276677 /* LaunchScreen.storyboard */; };
-		3FBE10C224393E6200170A9C /* PhysicalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE10C124393E6200170A9C /* PhysicalHealthViewController.swift */; };
+		3F99EF82244ABF1E00BC4D78 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */; };
+		3FA3D3DB2440139E0099D1BF /* SexualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */; };
+		3FA3D3DD2440164A0099D1BF /* BodyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */; };
+		3FA3D3DF244017A10099D1BF /* HygieneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */; };
+		3FA3D3E1244019020099D1BF /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		3F64FA6223DA22D700276677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F64FA6523DA22D700276677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F64FA6723DA22D700276677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBE10C124393E6200170A9C /* PhysicalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalHealthViewController.swift; sourceTree = "<group>"; };
+		3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualityViewController.swift; sourceTree = "<group>"; };
+		3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageViewController.swift; sourceTree = "<group>"; };
+		3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HygieneViewController.swift; sourceTree = "<group>"; };
+		3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,11 @@
 				3F64FA6223DA22D700276677 /* Assets.xcassets */,
 				3F64FA6423DA22D700276677 /* LaunchScreen.storyboard */,
 				3F64FA6723DA22D700276677 /* Info.plist */,
-				3FBE10C124393E6200170A9C /* PhysicalHealthViewController.swift */,
+				3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */,
+				3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */,
+				3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */,
+				3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */,
+				3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */,
 			);
 			path = "git practice";
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBE10C224393E6200170A9C /* PhysicalHealthViewController.swift in Sources */,
 				3F64FA5E23DA22D200276677 /* HomeViewController.swift in Sources */,
+				3F99EF82244ABF1E00BC4D78 /* WelcomeViewController.swift in Sources */,
 				3F64FA5A23DA22D200276677 /* AppDelegate.swift in Sources */,
+				3FA3D3E1244019020099D1BF /* MentalHealthViewController.swift in Sources */,
+				3FA3D3DF244017A10099D1BF /* HygieneViewController.swift in Sources */,
+				3FA3D3DD2440164A0099D1BF /* BodyImageViewController.swift in Sources */,
 				3F64FA5C23DA22D200276677 /* SceneDelegate.swift in Sources */,
+				3FA3D3DB2440139E0099D1BF /* SexualityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
