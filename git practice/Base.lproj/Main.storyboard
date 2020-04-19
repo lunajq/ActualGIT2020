@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p5A-jv-CIO">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2020-04-17 at 11.49.20 PM-1" translatesAutoresizingMaskIntoConstraints="NO" id="7HR-rI-TSy">
+                                <rect key="frame" x="9" y="5" width="396" height="129"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aJn-ja-jYt">
+                                <rect key="frame" x="20" y="144" width="374" height="598"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-3w-WTF" userLabel="Hygiene">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="99.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Hygiene" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.78899043798446655" green="0.81632983684539795" blue="0.84498339891433716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="HygieneButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7o-1B-755"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GyE-Av-ylD" userLabel="BodyImage">
+                                        <rect key="frame" x="0.0" y="99.666666666666657" width="374" height="99.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Body Image" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.79217541217803955" green="0.81651467084884644" blue="0.84510272741317749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="BodyImageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cmX-wn-clW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwW-8W-hCG" userLabel="Sexuality">
+                                        <rect key="frame" x="0.0" y="199.33333333333331" width="374" height="99.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Sexuality" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.79536443948745728" green="0.8167005181312561" blue="0.84522277116775513" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="SexualityButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X7z-To-gie"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnT-Sh-0hz" userLabel="MentalHealth">
+                                        <rect key="frame" x="0.0" y="299" width="374" height="99.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Mental Health" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.79536443950000002" green="0.81670051809999999" blue="0.8452227712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="MentalHealthButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pkd-aG-KvK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcQ-rG-WkF" userLabel="PhysicalHealth">
+                                        <rect key="frame" x="0.0" y="398.66666666666663" width="374" height="99.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Physical Health" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.79536443950000002" green="0.81670051809999999" blue="0.8452227712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewx-gD-jhC" userLabel="Relationships">
+                                        <rect key="frame" x="0.0" y="498.33333333333343" width="374" height="99.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Relationships" backgroundImage="Screen Shot 2020-04-18 at 12.09.42 AM">
+                                            <color key="titleColor" red="0.79536443950000002" green="0.81670051809999999" blue="0.8452227712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96337288619999994" green="0.88263827559999997" blue="0.86314004659999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7HR-rI-TSy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9tP-gr-XBa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7HR-rI-TSy" secondAttribute="bottom" constant="625" id="EbP-aM-FD7"/>
+                            <constraint firstItem="aJn-ja-jYt" firstAttribute="top" secondItem="7HR-rI-TSy" secondAttribute="bottom" constant="10" id="HDi-ge-SiW"/>
+                            <constraint firstItem="7HR-rI-TSy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="UBw-7l-UdU"/>
+                            <constraint firstItem="aJn-ja-jYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dtV-eu-C9x"/>
+                            <constraint firstItem="aJn-ja-jYt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fdz-IG-iM5"/>
+                            <constraint firstAttribute="bottom" secondItem="aJn-ja-jYt" secondAttribute="bottom" constant="100" id="l4b-px-rdq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aJn-ja-jYt" secondAttribute="trailing" constant="20" id="rMJ-lu-2Y4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="Xum-w0-nxG" kind="showDetail" identifier="SexualitySegue" id="L2H-ld-KLS"/>
+                        <segue destination="3rY-5q-bzn" kind="showDetail" identifier="BodyImageSegue" id="A3o-yB-bEf"/>
+                        <segue destination="cp6-PC-Nl5" kind="showDetail" identifier="HygieneSegue" id="sPI-fk-Bf7"/>
+                        <segue destination="3Q2-SU-zAz" kind="showDetail" identifier="MentalHealthSegue" id="QIo-ux-JZm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+        <!--HygieneViewController-->
+        <scene sceneID="Omx-Cj-leV">
+            <objects>
+                <viewController title="HygieneViewController" id="cp6-PC-Nl5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P1j-Mi-zsD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="FIZ-H3-kJk" userLabel="Hygiene Dashboard Stackview">
+                                <rect key="frame" x="20" y="788" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbL-1X-91n">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="30"/>
+                                        <color key="tintColor" red="0.32748520374298096" green="0.48396438360214233" blue="0.22404339909553528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back" image="return" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3h-hb-iTy">
+                                        <rect key="frame" x="161.33333333333334" y="0.0" width="51.333333333333343" height="30"/>
+                                        <state key="normal" title="HomeHygiene" image="Screen Shot 2020-03-30 at 11.16.45 AM"/>
+                                        <connections>
+                                            <segue destination="cXc-36-fla" kind="unwind" unwindAction="unwindToHomeViewControllerWithSegue:" id="7M5-W6-nUb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8V8-jG-rsc">
+                                        <rect key="frame" x="322.66666666666669" y="0.0" width="51.333333333333314" height="30"/>
+                                        <color key="tintColor" red="0.28345268959999997" green="0.4244117141" blue="0.2191337347" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Chat Hygiene" image="text.bubble.fill" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YxL-3k-BVn"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2020-04-18 at 12.58.02 AM" translatesAutoresizingMaskIntoConstraints="NO" id="lW6-RY-qWH">
+                                <rect key="frame" x="13" y="5" width="388" height="154"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="R5k-zw-Jq3">
+                                <rect key="frame" x="20" y="169" width="374" height="579"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-25-FGD">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="144.66666666666666"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Periods" backgroundImage="subtopics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTr-wW-j4w">
+                                        <rect key="frame" x="0.0" y="144.66666666666669" width="374" height="145"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Hair Care" backgroundImage="subtopics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDj-Ib-CEU">
+                                        <rect key="frame" x="0.0" y="289.66666666666669" width="374" height="144.66666666666669"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Skin Care" backgroundImage="subtopics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQs-9F-S3R">
+                                        <rect key="frame" x="0.0" y="434.33333333333337" width="374" height="144.66666666666663"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="35"/>
+                                        <state key="normal" title="Shaving" backgroundImage="subtopics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HYGIENE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgy-3j-Z1g">
+                                <rect key="frame" x="30" y="50" width="194" height="109"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
+                                <color key="textColor" red="0.28345268964767456" green="0.42441171407699585" blue="0.21913373470306396" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96337288618087769" green="0.88263827562332153" blue="0.8631400465965271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R5k-zw-Jq3" firstAttribute="centerX" secondItem="P1j-Mi-zsD" secondAttribute="centerX" id="6LQ-9Z-D9F"/>
+                            <constraint firstItem="qTe-oP-V4l" firstAttribute="trailing" secondItem="R5k-zw-Jq3" secondAttribute="trailing" constant="20" id="6lr-Pu-Zzh"/>
+                            <constraint firstItem="R5k-zw-Jq3" firstAttribute="top" secondItem="lW6-RY-qWH" secondAttribute="bottom" constant="10" id="Ewv-dh-He6"/>
+                            <constraint firstItem="lW6-RY-qWH" firstAttribute="top" secondItem="qTe-oP-V4l" secondAttribute="top" constant="5" id="IgH-06-NGl"/>
+                            <constraint firstItem="R5k-zw-Jq3" firstAttribute="top" secondItem="cgy-3j-Z1g" secondAttribute="bottom" constant="10" id="SYQ-Qb-ywp"/>
+                            <constraint firstItem="lW6-RY-qWH" firstAttribute="centerX" secondItem="P1j-Mi-zsD" secondAttribute="centerX" id="Sms-kP-vCP"/>
+                            <constraint firstItem="qTe-oP-V4l" firstAttribute="trailing" secondItem="cgy-3j-Z1g" secondAttribute="trailing" constant="190" id="Tla-0v-PL7"/>
+                            <constraint firstItem="cgy-3j-Z1g" firstAttribute="top" secondItem="qTe-oP-V4l" secondAttribute="top" constant="50" id="f6T-nz-1HT"/>
+                            <constraint firstItem="FIZ-H3-kJk" firstAttribute="centerX" secondItem="P1j-Mi-zsD" secondAttribute="centerX" id="gGM-x0-D26"/>
+                            <constraint firstItem="R5k-zw-Jq3" firstAttribute="leading" secondItem="qTe-oP-V4l" secondAttribute="leading" constant="20" id="gGs-Fs-eSD"/>
+                            <constraint firstItem="FIZ-H3-kJk" firstAttribute="top" secondItem="R5k-zw-Jq3" secondAttribute="bottom" constant="40" id="kzp-EY-4Ay"/>
+                            <constraint firstItem="cgy-3j-Z1g" firstAttribute="leading" secondItem="qTe-oP-V4l" secondAttribute="leading" constant="30" id="ovj-Jy-8vc"/>
+                            <constraint firstAttribute="trailing" secondItem="FIZ-H3-kJk" secondAttribute="trailing" constant="20" id="paf-Hx-gXZ"/>
+                            <constraint firstItem="FIZ-H3-kJk" firstAttribute="bottom" secondItem="qTe-oP-V4l" secondAttribute="bottom" constant="10" id="pdN-S3-cXg"/>
+                            <constraint firstItem="FIZ-H3-kJk" firstAttribute="leading" secondItem="P1j-Mi-zsD" secondAttribute="leading" constant="20" id="uBZ-MZ-a6g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qTe-oP-V4l"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kx1-Bx-2gg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="cXc-36-fla" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="116.51785714285714"/>
+        </scene>
+        <!--MentalHealthViewController-->
+        <scene sceneID="yiR-aE-z00">
+            <objects>
+                <viewController title="MentalHealthViewController" id="3Q2-SU-zAz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0jQ-IS-FLg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mental Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZP-J3-1wT">
+                                <rect key="frame" x="154" y="411" width="106.33333333333331" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="1mx-Jk-Hx3" userLabel="Dashboard Stackview">
+                                <rect key="frame" x="20" y="788" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMY-AD-OcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="30"/>
+                                        <color key="tintColor" red="0.32748520374298096" green="0.48396438360214233" blue="0.22404339909553528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back" image="return" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCC-dQ-GLA">
+                                        <rect key="frame" x="161.33333333333334" y="0.0" width="51.333333333333343" height="30"/>
+                                        <state key="normal" title="HomeMH" image="Screen Shot 2020-03-30 at 11.16.45 AM"/>
+                                        <connections>
+                                            <segue destination="axR-OZ-KyZ" kind="unwind" unwindAction="unwindToHomeViewControllerWithSegue:" id="aNZ-yx-l4F"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgf-cl-zHu">
+                                        <rect key="frame" x="322.66666666666669" y="0.0" width="51.333333333333314" height="30"/>
+                                        <state key="normal" title="Chat" image="Screen Shot 2020-03-30 at 12.06.13 PM"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YgI-th-iiO"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1mx-Jk-Hx3" firstAttribute="bottom" secondItem="kW0-s4-jc7" secondAttribute="bottom" constant="10" id="76j-O4-lzV"/>
+                            <constraint firstAttribute="trailing" secondItem="1mx-Jk-Hx3" secondAttribute="trailing" constant="20" id="9Lc-L6-v13"/>
+                            <constraint firstItem="fZP-J3-1wT" firstAttribute="centerX" secondItem="0jQ-IS-FLg" secondAttribute="centerX" id="JgF-HR-4Pt"/>
+                            <constraint firstItem="fZP-J3-1wT" firstAttribute="centerY" secondItem="0jQ-IS-FLg" secondAttribute="centerY" id="N1e-Nz-awK"/>
+                            <constraint firstItem="1mx-Jk-Hx3" firstAttribute="leading" secondItem="kW0-s4-jc7" secondAttribute="leading" constant="20" id="T23-z2-P5D"/>
+                            <constraint firstItem="1mx-Jk-Hx3" firstAttribute="centerX" secondItem="0jQ-IS-FLg" secondAttribute="centerX" id="yRy-EG-y52"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kW0-s4-jc7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDl-Zv-oZ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="axR-OZ-KyZ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1629" y="117"/>
+        </scene>
+        <!--SexualityViewController-->
+        <scene sceneID="OQn-7C-NVg">
+            <objects>
+                <viewController title="SexualityViewController" id="Xum-w0-nxG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cTP-tw-9dS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexuality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAW-a5-Gij">
+                                <rect key="frame" x="172.66666666666666" y="411" width="69" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="PA0-td-9aY" userLabel="Dashboard Stackview">
+                                <rect key="frame" x="20" y="768" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TW8-d6-tmb">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="30"/>
+                                        <color key="tintColor" red="0.3274852037" green="0.48396438359999999" blue="0.22404339910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back" image="return" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtD-oD-vCI">
+                                        <rect key="frame" x="161.33333333333334" y="0.0" width="51.333333333333343" height="30"/>
+                                        <state key="normal" title="HomeSexuality" image="Screen Shot 2020-03-30 at 11.16.45 AM"/>
+                                        <connections>
+                                            <segue destination="id1-45-drc" kind="unwind" unwindAction="unwindToHomeViewControllerWithSegue:" id="TuT-zc-1St"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kU-CT-h6F">
+                                        <rect key="frame" x="322.66666666666669" y="0.0" width="51.333333333333314" height="30"/>
+                                        <state key="normal" title="Chat" image="Screen Shot 2020-03-30 at 12.06.13 PM"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NjC-Pe-ob8"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PA0-td-9aY" firstAttribute="leading" secondItem="94P-Kp-eCe" secondAttribute="leading" constant="20" id="27x-ri-LuU"/>
+                            <constraint firstItem="TAW-a5-Gij" firstAttribute="centerX" secondItem="cTP-tw-9dS" secondAttribute="centerX" id="BKG-DP-9Id"/>
+                            <constraint firstItem="94P-Kp-eCe" firstAttribute="bottom" secondItem="PA0-td-9aY" secondAttribute="bottom" constant="10" id="Ltq-58-P47"/>
+                            <constraint firstAttribute="trailing" secondItem="PA0-td-9aY" secondAttribute="trailing" constant="20" id="aqq-gb-bVk"/>
+                            <constraint firstItem="PA0-td-9aY" firstAttribute="centerX" secondItem="cTP-tw-9dS" secondAttribute="centerX" id="qAy-6q-b0a"/>
+                            <constraint firstItem="TAW-a5-Gij" firstAttribute="centerY" secondItem="cTP-tw-9dS" secondAttribute="centerY" id="yPJ-S8-PDQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="94P-Kp-eCe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3Y-Fc-1Ws" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="id1-45-drc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="803"/>
+        </scene>
+        <!--BodyImageViewController-->
+        <scene sceneID="IJY-GT-i16">
+            <objects>
+                <viewController title="BodyImageViewController" id="3rY-5q-bzn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="04e-jq-MST">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdp-hl-C3L">
+                                <rect key="frame" x="161.66666666666666" y="411" width="90.666666666666657" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="aqf-R8-EQw" userLabel="Dashboard Stackview">
+                                <rect key="frame" x="20" y="788" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u54-Gz-FHn">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="30"/>
+                                        <color key="tintColor" red="0.3274852037" green="0.48396438359999999" blue="0.22404339910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Back" image="return" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gL-xR-fDa">
+                                        <rect key="frame" x="161.33333333333334" y="0.0" width="51.333333333333343" height="30"/>
+                                        <state key="normal" title="HomeBI" image="Screen Shot 2020-03-30 at 11.16.45 AM"/>
+                                        <connections>
+                                            <segue destination="mU8-KZ-yCy" kind="unwind" unwindAction="unwindToHomeViewControllerWithSegue:" id="PBt-Ns-dM1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WD6-66-5g8">
+                                        <rect key="frame" x="322.66666666666669" y="0.0" width="51.333333333333314" height="30"/>
+                                        <state key="normal" title="Chat" image="Screen Shot 2020-03-30 at 12.06.13 PM"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="eLv-oG-aw0"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aqf-R8-EQw" firstAttribute="bottom" secondItem="7Lm-Ne-rji" secondAttribute="bottom" constant="10" id="7d0-U0-OAs"/>
+                            <constraint firstItem="tdp-hl-C3L" firstAttribute="centerY" secondItem="04e-jq-MST" secondAttribute="centerY" id="84Y-Ln-Ndw"/>
+                            <constraint firstItem="tdp-hl-C3L" firstAttribute="centerX" secondItem="04e-jq-MST" secondAttribute="centerX" id="f7Y-os-4GG"/>
+                            <constraint firstAttribute="trailing" secondItem="aqf-R8-EQw" secondAttribute="trailing" constant="20" id="owu-PU-1Qa"/>
+                            <constraint firstItem="aqf-R8-EQw" firstAttribute="leading" secondItem="04e-jq-MST" secondAttribute="leading" constant="20" id="tW7-As-gbC"/>
+                            <constraint firstItem="aqf-R8-EQw" firstAttribute="centerX" secondItem="04e-jq-MST" secondAttribute="centerX" id="udN-yJ-cNQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7Lm-Ne-rji"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKO-lA-2Qr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="mU8-KZ-yCy" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="803"/>
+        </scene>
+        <!--WelcomeViewController-->
+        <scene sceneID="zXh-sK-yMu">
+            <objects>
+                <viewController title="WelcomeViewController" id="p5A-jv-CIO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wkz-Cv-tGs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc1-eI-VwV" userLabel="Welcome screen">
+                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
+                                <state key="normal" backgroundImage="Screen Shot 2020-04-17 at 9.01.01 PM"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="WelcomeSegue" id="iQm-Ff-Sy0"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I9b-jf-7pA">
+                                <rect key="frame" x="67" y="628" width="280" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap Anywhere to Continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y6-gg-o9s">
+                                        <rect key="frame" x="36" y="48" width="215" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <color key="textColor" red="0.3274852037" green="0.48396438359999999" blue="0.22404339910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wc1-eI-VwV" firstAttribute="top" secondItem="c4e-nN-0Zp" secondAttribute="top" id="0k9-ab-cIB"/>
+                            <constraint firstItem="c4e-nN-0Zp" firstAttribute="trailing" secondItem="wc1-eI-VwV" secondAttribute="trailing" id="IXm-GZ-xHH"/>
+                            <constraint firstItem="wc1-eI-VwV" firstAttribute="centerX" secondItem="Wkz-Cv-tGs" secondAttribute="centerX" id="VEh-9J-TgD"/>
+                            <constraint firstItem="wc1-eI-VwV" firstAttribute="centerY" secondItem="Wkz-Cv-tGs" secondAttribute="centerY" id="eDd-wA-fbi"/>
+                            <constraint firstItem="wc1-eI-VwV" firstAttribute="top" secondItem="c4e-nN-0Zp" secondAttribute="top" id="paP-pg-Pom"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c4e-nN-0Zp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIO-LB-d7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-617.39130434782612" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2020-03-30 at 11.16.45 AM" width="321" height="264"/>
+        <image name="Screen Shot 2020-03-30 at 12.06.13 PM" width="292" height="234"/>
+        <image name="Screen Shot 2020-04-17 at 11.49.20 PM-1" width="396" height="140"/>
+        <image name="Screen Shot 2020-04-17 at 9.01.01 PM" width="243" height="416"/>
+        <image name="Screen Shot 2020-04-18 at 12.09.42 AM" width="292" height="113"/>
+        <image name="Screen Shot 2020-04-18 at 12.58.02 AM" width="388" height="154"/>
+        <image name="return" catalog="system" width="64" height="50"/>
+        <image name="subtopics" width="294" height="113"/>
+        <image name="text.bubble.fill" catalog="system" width="64" height="54"/>
+    </resources>
+</document>
