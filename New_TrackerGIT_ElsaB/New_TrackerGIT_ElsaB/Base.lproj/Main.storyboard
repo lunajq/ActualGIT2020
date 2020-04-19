@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="New_TrackerGIT_ElsaB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="center" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yk9-kG-AQH">
+                                <rect key="frame" x="20" y="99" width="374" height="450"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j33-DS-WHv">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="54"/>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="41"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calanderIcon" translatesAutoresizingMaskIntoConstraints="NO" id="FX0-yt-Ef3">
+                                        <rect key="frame" x="0.0" y="64" width="374" height="66"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="300" text="Current Date" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXL-BM-MRj">
+                                        <rect key="frame" x="0.0" y="140" width="374" height="100"/>
+                                        <color key="backgroundColor" red="0.97366756200000004" green="0.75853568319999998" blue="0.57981616260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="CjK-ZO-aLs"/>
+                                            <constraint firstAttribute="height" constant="100" id="Dw4-kG-o3d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="fill" text="How was your day..." borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mgV-dj-jJR">
+                                        <rect key="frame" x="0.0" y="250" width="374" height="200"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="VDD-SJ-6s1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="200" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9L5-sM-0Xj">
+                                <rect key="frame" x="20" y="612" width="374" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Past Entries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhS-0f-hWC">
+                                        <rect key="frame" x="101" y="8" width="172" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="63c-4X-wqg">
+                                        <rect key="frame" x="8" y="51" width="374" height="50.5"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="300" text="Saved Date" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Tz-Iu-sv5">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                                <color key="backgroundColor" red="0.97366756200000004" green="0.75853568319999998" blue="0.57981616260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="8KX-DH-U8x"/>
+                                                    <constraint firstAttribute="height" constant="30" id="bC3-p1-a7s"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Past entries Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJ3-GR-lUP">
+                                                <rect key="frame" x="0.0" y="30" width="374" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="cRW-ta-eQw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hSi-qR-LwW"/>
+                            </scrollView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqh-4j-7Cn">
+                                <rect key="frame" x="182" y="559" width="50" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="6lb-fy-AGn"/>
+                                    <constraint firstAttribute="height" constant="40" id="7Ux-5F-mQB"/>
+                                    <constraint firstAttribute="width" constant="50" id="WEC-3T-GrI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SaveText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLf-07-7nT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9L5-sM-0Xj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1nq-GT-paP"/>
+                            <constraint firstItem="Tqh-4j-7Cn" firstAttribute="top" secondItem="Yk9-kG-AQH" secondAttribute="bottom" constant="10" id="D8Q-me-F1b"/>
+                            <constraint firstItem="9L5-sM-0Xj" firstAttribute="top" secondItem="Tqh-4j-7Cn" secondAttribute="bottom" constant="15" id="Jcq-hj-o0F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9L5-sM-0Xj" secondAttribute="trailing" constant="20" id="Sm7-1K-0Fh"/>
+                            <constraint firstItem="Yk9-kG-AQH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yzn-95-Kr7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yk9-kG-AQH" secondAttribute="trailing" constant="20" id="aKg-DV-5I6"/>
+                            <constraint firstItem="Tqh-4j-7Cn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="dua-Mx-DOp"/>
+                            <constraint firstItem="9L5-sM-0Xj" firstAttribute="top" secondItem="Tqh-4j-7Cn" secondAttribute="bottom" constant="15" id="dxQ-U7-App"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tqh-4j-7Cn" secondAttribute="trailing" constant="182" id="lFW-ny-q6D"/>
+                            <constraint firstItem="9L5-sM-0Xj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pm5-3L-oGI"/>
+                            <constraint firstItem="Tqh-4j-7Cn" firstAttribute="top" secondItem="Yk9-kG-AQH" secondAttribute="bottom" constant="10" id="qgG-yz-Qyn"/>
+                            <constraint firstItem="Yk9-kG-AQH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="sun-px-VrY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="LoginText" destination="mgV-dj-jJR" id="pJF-9o-N3l"/>
+                        <outlet property="loginText" destination="mgV-dj-jJR" id="dxS-1T-oNR"/>
+                        <outlet property="pastEntries" destination="vJ3-GR-lUP" id="jDT-P5-C4p"/>
+                        <outlet property="saveButton" destination="Tqh-4j-7Cn" id="ic0-FS-wa1"/>
+                        <outlet property="savedDate" destination="6Tz-Iu-sv5" id="iEq-OF-X3e"/>
+                        <outlet property="timeLabel" destination="kXL-BM-MRj" id="iUA-Xe-7hT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="86.383928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calanderIcon" width="82" height="66"/>
+    </resources>
+</document>
