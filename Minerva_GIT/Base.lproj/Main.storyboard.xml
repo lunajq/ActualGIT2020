@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="center" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kLt-Ha-BwC" userLabel="Home screen">
+                                <rect key="frame" x="0.0" y="44" width="414" height="729"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ia1-F7-n8k" userLabel="physical health + insecurities">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="729"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ci8-Mr-XAI">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="364.5"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                                <state key="normal" title="Physical Health"/>
+                                                <connections>
+                                                    <action selector="PhysicalHealthButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VKG-jS-oMy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbh-lj-wpe">
+                                                <rect key="frame" x="0.0" y="364.5" width="207" height="364.5"/>
+                                                <state key="normal" title="Body Insecurities"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-Px-WCf" userLabel="mental health + support stackview">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="729"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxy-9E-xrt">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="364.5"/>
+                                                <state key="normal" title="Mental Health"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6u-Xd-i3n">
+                                                <rect key="frame" x="0.0" y="364.5" width="207" height="364.5"/>
+                                                <state key="normal" title="Support"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="opS-CS-YmQ" userLabel="Dashboard Stackview">
+                                <rect key="frame" x="40" y="783" width="334" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5V-YR-M5j">
+                                        <rect key="frame" x="0.0" y="0.0" width="44.5" height="30"/>
+                                        <state key="normal" title="Back"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shx-e0-GnM">
+                                        <rect key="frame" x="144.5" y="0.0" width="45" height="30"/>
+                                        <state key="normal" title="Home" image="Screen Shot 2020-03-30 at 11.16.45 AM"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIL-sv-SVx">
+                                        <rect key="frame" x="289.5" y="0.0" width="44.5" height="30"/>
+                                        <state key="normal" title="Chat" image="Screen Shot 2020-03-30 at 12.06.13 PM"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xhH-yy-lPI"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kLt-Ha-BwC" secondAttribute="trailing" id="NgB-6O-4Dq"/>
+                            <constraint firstItem="opS-CS-YmQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Zr0-8F-KlW"/>
+                            <constraint firstItem="opS-CS-YmQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="d8A-XW-5gI"/>
+                            <constraint firstItem="kLt-Ha-BwC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hY8-S3-Kez"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="opS-CS-YmQ" secondAttribute="trailing" constant="20" id="kAA-d7-hRT"/>
+                            <constraint firstItem="opS-CS-YmQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lp5-1y-KTq"/>
+                            <constraint firstItem="opS-CS-YmQ" firstAttribute="top" secondItem="kLt-Ha-BwC" secondAttribute="bottom" constant="10" id="s9A-2b-JGB"/>
+                            <constraint firstItem="kLt-Ha-BwC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="x5Z-JE-CAD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="xOm-KY-6ud" kind="showDetail" identifier="PhysicalHealthSegue" id="LdM-PM-4iM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OQn-7C-NVg">
+            <objects>
+                <viewController id="Xum-w0-nxG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cTP-tw-9dS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="94P-Kp-eCe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3Y-Fc-1Ws" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="803"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IJY-GT-i16">
+            <objects>
+                <viewController id="3rY-5q-bzn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="04e-jq-MST">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7Lm-Ne-rji"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKO-lA-2Qr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="803"/>
+        </scene>
+        <!--PhysicalHealthViewController-->
+        <scene sceneID="2W4-Om-7Cc">
+            <objects>
+                <viewController storyboardIdentifier="PhysicalHealthViewController" title="PhysicalHealthViewController" id="xOm-KY-6ud" customClass="PhysicalHealthViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vhJ-5a-FOS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Physical Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fof-mt-Qq8">
+                                <rect key="frame" x="148" y="393.5" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Fof-mt-Qq8" firstAttribute="centerX" secondItem="RKf-Iv-xik" secondAttribute="centerX" id="ju4-Dv-EUX"/>
+                            <constraint firstItem="Fof-mt-Qq8" firstAttribute="centerY" secondItem="RKf-Iv-xik" secondAttribute="centerY" id="qE4-Hg-JpT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RKf-Iv-xik"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NgS-mD-c50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="117"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="owA-9T-27s">
+            <objects>
+                <tableViewController id="ikI-7Q-iLV" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IHf-fk-eox">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kAg-Cw-cSP">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kAg-Cw-cSP" id="U4Q-l2-f5F">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ikI-7Q-iLV" id="KsH-40-tao"/>
+                            <outlet property="delegate" destination="ikI-7Q-iLV" id="kyc-Lz-tfA"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fJZ-SQ-VnA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2020-03-30 at 11.16.45 AM" width="321" height="264"/>
+        <image name="Screen Shot 2020-03-30 at 12.06.13 PM" width="292" height="234"/>
+    </resources>
+</document>

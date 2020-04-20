@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HmK-Gb-pls">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome to Hair Care-->
+        <scene sceneID="ln3-CI-Vff">
+            <objects>
+                <tableViewController id="k64-ze-8Oo" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jaK-kF-Ka4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <scrollView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="Swh-Im-6In">
+                            <rect key="frame" x="0.0" y="120" width="414" height="1021"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CA-mH-Eqr">
+                                    <rect key="frame" x="20" y="0.0" width="375" height="361"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <string key="text">Hair care is what people do to make their hair clean and look the way they want it. Hair care is different for everyone based on their hair. Curly or straight, thick or fine, there is so much diversity within hair. Healthlines page explains the steps to establish a hair care routine for many types of hair.
+</string>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="https://www.healthline.com/health/beauty-skin-care/hair-care-routine" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8gF-WW-ebc">
+                                    <rect key="frame" x="20" y="375" width="368" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here is the link to Healthlines page: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ukw-jo-WOr">
+                                    <rect key="frame" x="20" y="338" width="368" height="29"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Personal Experiences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tL-Uu-C2V">
+                                    <rect key="frame" x="20" y="443" width="368" height="54"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6h-UJ-8so">
+                                    <rect key="frame" x="20" y="505" width="350" height="439"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <viewLayoutGuide key="contentLayoutGuide" id="WM7-W1-f9D"/>
+                            <viewLayoutGuide key="frameLayoutGuide" id="wAu-nc-6oJ"/>
+                        </scrollView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="n5Z-uR-VL4" rowHeight="64" style="IBUITableViewCellStyleDefault" id="gpB-6S-0l5">
+                                <rect key="frame" x="0.0" y="28" width="414" height="64"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gpB-6S-0l5" id="Up9-uB-0Cu">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="About Hair Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n5Z-uR-VL4">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="k64-ze-8Oo" id="asJ-xh-aYs"/>
+                            <outlet property="delegate" destination="k64-ze-8Oo" id="rXo-oh-01g"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="zC6-hI-iJ4"/>
+                    <navigationItem key="navigationItem" title="Welcome to Hair Care" id="SP7-Pp-oSI"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHd-tO-orJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3574" y="-23"/>
+        </scene>
+        <!--WelcomeViewController-->
+        <scene sceneID="zXh-sK-yMu">
+            <objects>
+                <viewController title="WelcomeViewController" id="p5A-jv-CIO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wkz-Cv-tGs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc1-eI-VwV" userLabel="Welcome screen">
+                                <rect key="frame" x="-60" y="0.0" width="533" height="896.00000000000023"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="loginScreen"/>
+                                <connections>
+                                    <segue destination="3NO-BI-bup" kind="show" id="kDg-HW-IMb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Anywhere to Continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y6-gg-o9s">
+                                <rect key="frame" x="100" y="651" width="215" height="27"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="c4e-nN-0Zp" firstAttribute="bottom" secondItem="3Y6-gg-o9s" secondAttribute="bottom" constant="184" id="EnJ-Ty-qMW"/>
+                            <constraint firstItem="3Y6-gg-o9s" firstAttribute="leading" secondItem="c4e-nN-0Zp" secondAttribute="leading" constant="100" id="iWj-Fr-dCo"/>
+                            <constraint firstItem="c4e-nN-0Zp" firstAttribute="trailing" secondItem="3Y6-gg-o9s" secondAttribute="trailing" constant="99" id="y3v-FS-vsx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c4e-nN-0Zp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6YI-h5-BJl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIO-LB-d7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-533.33333333333337" y="1226.7857142857142"/>
+        </scene>
+        <!--Hygiene View Controller-->
+        <scene sceneID="LhG-ZU-bKu">
+            <objects>
+                <viewController id="oPK-7a-4jY" customClass="HygieneViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gtp-YJ-bIW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="HtB-fK-Nnm">
+                                <rect key="frame" x="20" y="311" width="374" height="344"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdA-Dv-ZZa" userLabel="BodyImage">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Aht-3Y-qXV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Periods">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqX-RA-1xs" userLabel="Sexuality">
+                                        <rect key="frame" x="0.0" y="98" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="s4d-db-srb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Hair Care">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7Kc-b5-gth" kind="show" id="UzL-uM-aQn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySn-uR-rAa" userLabel="MentalHealth">
+                                        <rect key="frame" x="0.0" y="196" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cvE-Wf-vak"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Skin Care">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Wa0-gT-YvD" kind="show" id="6GU-xO-KXy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onY-Rz-Hbz" userLabel="PhysicalHealth">
+                                        <rect key="frame" x="0.0" y="294" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hAv-5a-Rez"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Shaving">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="ElO-gM-6S5">
+                                <rect key="frame" x="-16" y="24" width="447.00000000000011" height="194"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.86173954310000001" blue="0.77596970519999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ElO-gM-6S5" firstAttribute="leading" secondItem="gtp-YJ-bIW" secondAttribute="leading" constant="-16" id="Byz-71-SZA"/>
+                            <constraint firstAttribute="trailing" secondItem="ElO-gM-6S5" secondAttribute="trailing" constant="-17" id="ENp-cQ-fcL"/>
+                            <constraint firstItem="Jvb-mO-OZ8" firstAttribute="bottom" secondItem="HtB-fK-Nnm" secondAttribute="bottom" constant="158" id="IP5-lk-oB0"/>
+                            <constraint firstItem="Jvb-mO-OZ8" firstAttribute="trailing" secondItem="HtB-fK-Nnm" secondAttribute="trailing" constant="20" id="Lei-Qg-5bF"/>
+                            <constraint firstItem="HtB-fK-Nnm" firstAttribute="leading" secondItem="Jvb-mO-OZ8" secondAttribute="leading" constant="20" id="dzT-nB-vdi"/>
+                            <constraint firstItem="ElO-gM-6S5" firstAttribute="top" secondItem="gtp-YJ-bIW" secondAttribute="top" id="qZD-Xy-Qll"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jvb-mO-OZ8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Qn-tL-IsN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0U-hP-u2S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1407" y="1227"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7kV-JY-HdB">
+            <objects>
+                <tabBarController storyboardIdentifier="HairCareVC" id="7Kc-b5-gth" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="z6b-Jr-gwC"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ruE-fT-3Tt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.34901960780000002" green="0.59607843140000005" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8J6-9u-dEb" kind="relationship" relationship="viewControllers" id="MDI-ag-dRg"/>
+                        <segue destination="k64-ze-8Oo" kind="relationship" relationship="viewControllers" id="ZLG-Od-ZrB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Vy-9z-U1K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2314" y="862"/>
+        </scene>
+        <!--Questions & Comments-->
+        <scene sceneID="JDH-pR-fDQ">
+            <objects>
+                <tableViewController id="8J6-9u-dEb" customClass="TableViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="62O-Qy-igo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" red="1" green="0.70588235290000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="r2D-Nl-tVQ" detailTextLabel="xbt-nS-jaG" style="IBUITableViewCellStyleSubtitle" id="Jtk-UJ-CmQ">
+                                <rect key="frame" x="0.0" y="28" width="414" height="55.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jtk-UJ-CmQ" id="Dma-fF-sgN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="55.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r2D-Nl-tVQ">
+                                            <rect key="frame" x="20.000000000000004" y="8.9999999999999982" width="35.333333333333336" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xbt-nS-jaG">
+                                            <rect key="frame" x="19.999999999999996" y="31.333333333333332" width="43.666666666666664" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8J6-9u-dEb" id="xfr-lz-T3D"/>
+                            <outlet property="delegate" destination="8J6-9u-dEb" id="Qf8-LB-dGw"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="Woq-5t-Sae"/>
+                    <navigationItem key="navigationItem" title="Questions &amp; Comments" id="C7T-50-z4R">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="354-hF-KiN">
+                            <color key="tintColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="composeSweet:" destination="8J6-9u-dEb" id="Lh2-tZ-1eM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5hq-dr-wh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3575" y="640"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HZB-iZ-lbF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsWhenVerticallyCompact="YES" id="HmK-Gb-pls" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="s0p-Ci-mtD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="21"/>
+                            <color key="textColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3v8-sh-W1t">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="p5A-jv-CIO" kind="relationship" relationship="rootViewController" id="Td4-kX-nPp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWk-0Z-mwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1446" y="1227"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="MqC-Ss-pVO">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="3NO-BI-bup" customClass="HomeViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VEg-N4-d8T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="v5D-sO-r05">
+                                <rect key="frame" x="20" y="292" width="374" height="530"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ut6-2f-rc0" userLabel="Hygiene">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="GlZ-9Y-YQr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Hygiene">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="oPK-7a-4jY" kind="show" id="5up-pA-pkL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHM-I5-g93" userLabel="BodyImage">
+                                        <rect key="frame" x="0.0" y="96" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="DKL-Ma-fpC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Body Image">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWo-go-cmu" userLabel="Sexuality">
+                                        <rect key="frame" x="0.0" y="192" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="FKz-QI-Nc5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Sexuality">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euP-S5-uu9" userLabel="MentalHealth">
+                                        <rect key="frame" x="0.0" y="288" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="GKX-qG-riz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Mental Health">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlU-7H-DGg" userLabel="PhysicalHealth">
+                                        <rect key="frame" x="0.0" y="384" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="aXd-tZ-SAW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Physical Health">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQj-Hd-iGf" userLabel="Relationships">
+                                        <rect key="frame" x="0.0" y="480" width="374" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="d07-TG-PG4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
+                                        <state key="normal" title="Relationships">
+                                            <color key="titleColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="3Zj-mU-8ry">
+                                <rect key="frame" x="-13" y="40" width="447" height="388"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.86274509799999999" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hea-aA-fQ0" firstAttribute="trailing" secondItem="v5D-sO-r05" secondAttribute="trailing" constant="20" id="7jP-2B-QT4"/>
+                            <constraint firstAttribute="trailing" secondItem="3Zj-mU-8ry" secondAttribute="trailing" constant="-20" id="GOp-7j-1da"/>
+                            <constraint firstItem="3Zj-mU-8ry" firstAttribute="top" secondItem="VEg-N4-d8T" secondAttribute="top" constant="40" id="Jhn-Bx-NmC"/>
+                            <constraint firstItem="v5D-sO-r05" firstAttribute="leading" secondItem="hea-aA-fQ0" secondAttribute="leading" constant="20" id="P3h-p7-v9Z"/>
+                            <constraint firstItem="hea-aA-fQ0" firstAttribute="bottom" secondItem="v5D-sO-r05" secondAttribute="bottom" constant="40" id="Vln-cz-FYX"/>
+                            <constraint firstItem="3Zj-mU-8ry" firstAttribute="leading" secondItem="VEg-N4-d8T" secondAttribute="leading" constant="-13" id="t6t-i4-Nn3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hea-aA-fQ0"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bzM-fL-PKz"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRO-oq-U24" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="1227"/>
+        </scene>
+        <!--Welcome to SkinCare-->
+        <scene sceneID="bvJ-z1-PkP">
+            <objects>
+                <tableViewController id="Spy-Zj-nsx" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fjU-Ho-a6B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <scrollView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kGB-hq-Fbb">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1557"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="AHA-nt-kI2">
+                                    <rect key="frame" x="20" y="8" width="394" height="1062"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Skin Care" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t1-a9-jXc">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="28"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                            <color key="textColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(...)" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENc-3w-5io">
+                                            <rect key="frame" x="0.0" y="48" width="394" height="28"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="(...)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zlr-zK-ikZ">
+                                            <rect key="frame" x="0.0" y="96" width="394" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Here is the link to Healthlines page: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvU-DD-tbL">
+                                            <rect key="frame" x="0.0" y="166" width="394" height="28.666666666666657"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Teen (Real-Life) Perspective:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6U-qg-zvV">
+                                            <rect key="frame" x="0.0" y="214.66666666666666" width="394" height="25.333333333333343"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                            <color key="textColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVj-Xn-9YM">
+                                            <rect key="frame" x="0.0" y="260" width="394" height="802"/>
+                                            <string key="text">I’ve struggled with oily, acne-prone skin since I was around twelve years old. I tried everything I could to fix it – covering it up with concealer, using way too many drugstore skincare products, and even following sketchy DIY “magic fixes” (Pro tip: don’t trust those 5-minute-hack videos! Most ingredients are way too harsh for your skin). It got to the point where I wasn’t even sure if I was trying to fix my skin or my self-image. Every time I looked in the mirror, I couldn’t help but notice each new zit and every scar, but I didn’t realize that most people in my life barely noticed them. Once I accepted that there would never be a miracle cleanser or spot treatment to banish my blemishes forever, I could focus on the other lifestyle factors that affected my skin’s health and my mental health – limiting the amount of products I use, eating healthy, staying hydrated, sleeping, and always wearing sunscreen! My skin is still far from perfect, but it’s not the first thing I see in the mirror anymore.
+</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.86173954310000001" blue="0.77596970519999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="1" green="0.86173954310000001" blue="0.77596970519999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="AHA-nt-kI2" firstAttribute="trailing" secondItem="els-My-JEd" secondAttribute="trailing" constant="20" id="AG8-Jb-4PR"/>
+                                <constraint firstItem="AHA-nt-kI2" firstAttribute="leading" secondItem="els-My-JEd" secondAttribute="leading" constant="20" id="FvT-QN-Yvw"/>
+                                <constraint firstAttribute="trailing" secondItem="AHA-nt-kI2" secondAttribute="trailing" id="IlS-E4-7Id"/>
+                                <constraint firstItem="AHA-nt-kI2" firstAttribute="top" secondItem="els-My-JEd" secondAttribute="top" constant="8" id="Prl-1l-TEp"/>
+                                <constraint firstItem="AHA-nt-kI2" firstAttribute="top" secondItem="muy-CQ-noT" secondAttribute="bottom" constant="8" symbolic="YES" id="rYA-GD-6rM"/>
+                                <constraint firstItem="AHA-nt-kI2" firstAttribute="trailing" secondItem="els-My-JEd" secondAttribute="trailing" id="v4R-eD-9o9"/>
+                            </constraints>
+                            <viewLayoutGuide key="contentLayoutGuide" id="muy-CQ-noT"/>
+                            <viewLayoutGuide key="frameLayoutGuide" id="els-My-JEd"/>
+                        </scrollView>
+                        <connections>
+                            <outlet property="dataSource" destination="Spy-Zj-nsx" id="hJH-oJ-2kS"/>
+                            <outlet property="delegate" destination="Spy-Zj-nsx" id="09M-Qp-Yk1"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="fjE-3F-3cO"/>
+                    <navigationItem key="navigationItem" title="Welcome to SkinCare" id="Ch0-ui-Fns"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="efo-4C-i4C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3995.652173913044" y="1514.7321428571429"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="T0O-NK-gIT">
+            <objects>
+                <tabBarController storyboardIdentifier="SkinCareVC" id="Wa0-gT-YvD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gV6-zi-4y8"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Cc-Dd-dEg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.34901960780000002" green="0.59607843140000005" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DQs-ac-bvr" kind="relationship" relationship="viewControllers" id="1Hr-QM-qAB"/>
+                        <segue destination="Spy-Zj-nsx" kind="relationship" relationship="viewControllers" id="TaX-wC-ebP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCP-hf-eeC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2313" y="1760"/>
+        </scene>
+        <!--Questions & Comments-->
+        <scene sceneID="5T2-VJ-lla">
+            <objects>
+                <tableViewController id="DQs-ac-bvr" customClass="TableViewController" customModule="git_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v3p-6z-NNs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" red="1" green="0.70588235290000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="jT2-VY-4sd" detailTextLabel="hhW-1d-V3o" style="IBUITableViewCellStyleSubtitle" id="n3a-V0-Dzl">
+                                <rect key="frame" x="0.0" y="28" width="414" height="55.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n3a-V0-Dzl" id="6Kc-x2-Kg4">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="55.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jT2-VY-4sd">
+                                            <rect key="frame" x="20.000000000000004" y="8.9999999999999982" width="35.333333333333336" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hhW-1d-V3o">
+                                            <rect key="frame" x="19.999999999999996" y="31.333333333333332" width="43.666666666666664" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DQs-ac-bvr" id="M06-8E-K1T"/>
+                            <outlet property="delegate" destination="DQs-ac-bvr" id="NYn-I9-7Rl"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="yTn-FT-fmE"/>
+                    <navigationItem key="navigationItem" title="Questions &amp; Comments" id="4mC-tK-CFo">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="compose" id="3yE-xp-Lgw">
+                            <color key="tintColor" red="0.0" green="0.33297115560000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="composeSweet:" destination="DQs-ac-bvr" id="pvn-Jy-fHy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4z-Lf-9Mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3997" y="2205"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loginScreen" width="592" height="1006"/>
+        <image name="title" width="412" height="194"/>
+    </resources>
+</document>
