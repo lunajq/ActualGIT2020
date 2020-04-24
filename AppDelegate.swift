@@ -1,15 +1,18 @@
 //
 //  AppDelegate.swift
-//  git practice
+//  safarilink
 //
-//  Created by Student on 1/23/20.
-//  Copyright © 2020 Student. All rights reserved.
+//  Created by luna JiangQin on 4/23/20.
+//  Copyright © 2020 luna JiangQin. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
