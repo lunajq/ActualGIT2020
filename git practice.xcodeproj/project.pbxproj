@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3369022450A756005172ED /* Reply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3369012450A756005172ED /* Reply.swift */; };
+		3D3369042450A8E8005172ED /* SkinCareReplyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3369032450A8E8005172ED /* SkinCareReplyTVC.swift */; };
+		3D336906245260EB005172ED /* DDHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D336905245260EB005172ED /* DDHomeVC.swift */; };
+		3D33690B245273FE005172ED /* PeriodsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33690A245273FE005172ED /* PeriodsTVC.swift */; };
+		3D639E85244E24F100D176F9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D639E84244E24F100D176F9 /* Comment.swift */; };
+		3DC2AF68244E316200692D3C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC2AF67244E316200692D3C /* Utilities.swift */; };
+		3DDAA8C1244E1061008E09FE /* SkinCareCommentsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDAA8C0244E1061008E09FE /* SkinCareCommentsTableVC.swift */; };
+		3DDAA8C3244E1183008E09FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DDAA8C2244E1183008E09FE /* GoogleService-Info.plist */; };
 		3F64FA5A23DA22D200276677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FA5923DA22D200276677 /* AppDelegate.swift */; };
 		3F64FA5C23DA22D200276677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FA5B23DA22D200276677 /* SceneDelegate.swift */; };
 		3F64FA5E23DA22D200276677 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FA5D23DA22D200276677 /* HomeViewController.swift */; };
@@ -14,14 +22,21 @@
 		3F64FA6323DA22D700276677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FA6223DA22D700276677 /* Assets.xcassets */; };
 		3F64FA6623DA22D700276677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FA6423DA22D700276677 /* LaunchScreen.storyboard */; };
 		3F99EF82244ABF1E00BC4D78 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */; };
-		3FA3D3DB2440139E0099D1BF /* SexualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */; };
-		3FA3D3DD2440164A0099D1BF /* BodyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */; };
 		3FA3D3DF244017A10099D1BF /* HygieneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */; };
-		3FA3D3E1244019020099D1BF /* MentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */; };
+		55096977F931CA50BA2A1AA5 /* Pods_git_practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B1038504D75F3AEE409E29 /* Pods_git_practice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F64FA5623DA22D200276677 /* git practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E66EBC92D6A1E3B10D43D87 /* Pods-git practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git practice.release.xcconfig"; path = "Target Support Files/Pods-git practice/Pods-git practice.release.xcconfig"; sourceTree = "<group>"; };
+		3D3369012450A756005172ED /* Reply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reply.swift; sourceTree = "<group>"; };
+		3D3369032450A8E8005172ED /* SkinCareReplyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCareReplyTVC.swift; sourceTree = "<group>"; };
+		3D336905245260EB005172ED /* DDHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDHomeVC.swift; sourceTree = "<group>"; };
+		3D33690A245273FE005172ED /* PeriodsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodsTVC.swift; sourceTree = "<group>"; };
+		3D639E84244E24F100D176F9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3DC2AF67244E316200692D3C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3DDAA8C0244E1061008E09FE /* SkinCareCommentsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCareCommentsTableVC.swift; sourceTree = "<group>"; };
+		3DDAA8C2244E1183008E09FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F64FA5623DA22D200276677 /* Minerva_GIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minerva_GIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F64FA5923DA22D200276677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F64FA5B23DA22D200276677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3F64FA5D23DA22D200276677 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -30,10 +45,9 @@
 		3F64FA6523DA22D700276677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F64FA6723DA22D700276677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualityViewController.swift; sourceTree = "<group>"; };
-		3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImageViewController.swift; sourceTree = "<group>"; };
 		3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HygieneViewController.swift; sourceTree = "<group>"; };
-		3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthViewController.swift; sourceTree = "<group>"; };
+		6DE4700F72311B8518E2883B /* Pods-git practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git practice.debug.xcconfig"; path = "Target Support Files/Pods-git practice/Pods-git practice.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B1038504D75F3AEE409E29 /* Pods_git_practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_git_practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,24 +55,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55096977F931CA50BA2A1AA5 /* Pods_git_practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF1DD5B0D3E93CA7EE69DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1038504D75F3AEE409E29 /* Pods_git_practice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D3368FE2450A709005172ED /* SkinCareReply */ = {
+			isa = PBXGroup;
+			children = (
+				3D3369012450A756005172ED /* Reply.swift */,
+				3D3369032450A8E8005172ED /* SkinCareReplyTVC.swift */,
+			);
+			path = SkinCareReply;
+			sourceTree = "<group>";
+		};
+		3D33690724526A54005172ED /* Not useing HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */,
+				3F64FA5D23DA22D200276677 /* HomeViewController.swift */,
+			);
+			path = "Not useing HomeVC";
+			sourceTree = "<group>";
+		};
+		3DC2AF69244E317000692D3C /* SkinCareComments */ = {
+			isa = PBXGroup;
+			children = (
+				3D639E84244E24F100D176F9 /* Comment.swift */,
+				3DDAA8C0244E1061008E09FE /* SkinCareCommentsTableVC.swift */,
+				3D3368FE2450A709005172ED /* SkinCareReply */,
+			);
+			path = SkinCareComments;
+			sourceTree = "<group>";
+		};
+		3DC2AF6A244E318100692D3C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3DC2AF67244E316200692D3C /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3F64FA4D23DA22D200276677 = {
 			isa = PBXGroup;
 			children = (
 				3F64FA5823DA22D200276677 /* git practice */,
 				3F64FA5723DA22D200276677 /* Products */,
+				702938E094EBE9FF36101B34 /* Pods */,
+				0EF1DD5B0D3E93CA7EE69DC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3F64FA5723DA22D200276677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F64FA5623DA22D200276677 /* git practice.app */,
+				3F64FA5623DA22D200276677 /* Minerva_GIT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,18 +129,28 @@
 			children = (
 				3F64FA5923DA22D200276677 /* AppDelegate.swift */,
 				3F64FA5B23DA22D200276677 /* SceneDelegate.swift */,
-				3F64FA5D23DA22D200276677 /* HomeViewController.swift */,
+				3DC2AF6A244E318100692D3C /* Helpers */,
+				3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */,
+				3D33690724526A54005172ED /* Not useing HomeVC */,
+				3D336905245260EB005172ED /* DDHomeVC.swift */,
+				3D33690A245273FE005172ED /* PeriodsTVC.swift */,
+				3DC2AF69244E317000692D3C /* SkinCareComments */,
 				3F64FA5F23DA22D200276677 /* Main.storyboard */,
 				3F64FA6223DA22D700276677 /* Assets.xcassets */,
 				3F64FA6423DA22D700276677 /* LaunchScreen.storyboard */,
+				3DDAA8C2244E1183008E09FE /* GoogleService-Info.plist */,
 				3F64FA6723DA22D700276677 /* Info.plist */,
-				3FA3D3DA2440139E0099D1BF /* SexualityViewController.swift */,
-				3FA3D3DC2440164A0099D1BF /* BodyImageViewController.swift */,
-				3F99EF81244ABF1E00BC4D78 /* WelcomeViewController.swift */,
-				3FA3D3DE244017A10099D1BF /* HygieneViewController.swift */,
-				3FA3D3E0244019020099D1BF /* MentalHealthViewController.swift */,
 			);
 			path = "git practice";
+			sourceTree = "<group>";
+		};
+		702938E094EBE9FF36101B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DE4700F72311B8518E2883B /* Pods-git practice.debug.xcconfig */,
+				1E66EBC92D6A1E3B10D43D87 /* Pods-git practice.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F64FA6A23DA22D700276677 /* Build configuration list for PBXNativeTarget "git practice" */;
 			buildPhases = (
+				B64C5C69FE52B2BAC94EABB1 /* [CP] Check Pods Manifest.lock */,
 				3F64FA5223DA22D200276677 /* Sources */,
 				3F64FA5323DA22D200276677 /* Frameworks */,
 				3F64FA5423DA22D200276677 /* Resources */,
+				5776F3A6A33F4889A3E3A2FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +172,7 @@
 			);
 			name = "git practice";
 			productName = "git practice";
-			productReference = 3F64FA5623DA22D200276677 /* git practice.app */;
+			productReference = 3F64FA5623DA22D200276677 /* Minerva_GIT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,12 +214,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F64FA6623DA22D700276677 /* LaunchScreen.storyboard in Resources */,
+				3DDAA8C3244E1183008E09FE /* GoogleService-Info.plist in Resources */,
 				3F64FA6323DA22D700276677 /* Assets.xcassets in Resources */,
 				3F64FA6123DA22D200276677 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5776F3A6A33F4889A3E3A2FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-git practice/Pods-git practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-git practice/Pods-git practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-git practice/Pods-git practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64C5C69FE52B2BAC94EABB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-git practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F64FA5223DA22D200276677 /* Sources */ = {
@@ -156,11 +272,15 @@
 				3F64FA5E23DA22D200276677 /* HomeViewController.swift in Sources */,
 				3F99EF82244ABF1E00BC4D78 /* WelcomeViewController.swift in Sources */,
 				3F64FA5A23DA22D200276677 /* AppDelegate.swift in Sources */,
-				3FA3D3E1244019020099D1BF /* MentalHealthViewController.swift in Sources */,
+				3D639E85244E24F100D176F9 /* Comment.swift in Sources */,
+				3D3369042450A8E8005172ED /* SkinCareReplyTVC.swift in Sources */,
+				3D336906245260EB005172ED /* DDHomeVC.swift in Sources */,
+				3D33690B245273FE005172ED /* PeriodsTVC.swift in Sources */,
+				3DDAA8C1244E1061008E09FE /* SkinCareCommentsTableVC.swift in Sources */,
 				3FA3D3DF244017A10099D1BF /* HygieneViewController.swift in Sources */,
-				3FA3D3DD2440164A0099D1BF /* BodyImageViewController.swift in Sources */,
+				3D3369022450A756005172ED /* Reply.swift in Sources */,
+				3DC2AF68244E316200692D3C /* Utilities.swift in Sources */,
 				3F64FA5C23DA22D200276677 /* SceneDelegate.swift in Sources */,
-				3FA3D3DB2440139E0099D1BF /* SexualityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +422,7 @@
 		};
 		3F64FA6B23DA22D700276677 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE4700F72311B8518E2883B /* Pods-git practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,8 +432,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "git-practice-app.git-practice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minerva.GIT;
+				PRODUCT_NAME = Minerva_GIT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +441,7 @@
 		};
 		3F64FA6C23DA22D700276677 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E66EBC92D6A1E3B10D43D87 /* Pods-git practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -329,8 +451,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "git-practice-app.git-practice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Minerva.GIT;
+				PRODUCT_NAME = Minerva_GIT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
